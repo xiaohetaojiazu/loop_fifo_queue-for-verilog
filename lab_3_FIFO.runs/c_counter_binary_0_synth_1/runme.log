@@ -1,0 +1,13 @@
+
+*** Running vivado
+    with args -log c_counter_binary_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source c_counter_binary_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source c_counter_binary_0.tcl -notrace
+couldn't read file "c_counter_binary_0.tcl": no such file or directory
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  1 19:30:30 2019...

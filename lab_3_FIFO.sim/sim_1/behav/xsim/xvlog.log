@@ -1,0 +1,19 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/2018.2/lab_3_FIFO/lab_3_FIFO.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/2018.2/lab_3_FIFO/lab_3_FIFO.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/2018.2/lab_3_FIFO/lab_3_FIFO.srcs/sources_1/new/lab_3_FIFO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_3_FIFO
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/2018.2/lab_3_FIFO/lab_3_FIFO.srcs/sources_1/new/lab_3_FIFO_RF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_3_FIFO_RF
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/2018.2/lab_3_FIFO/lab_3_FIFO.srcs/sources_1/new/lab_3_FIFO_display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_3_FIFO_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/2018.2/lab_3_FIFO/lab_3_FIFO.srcs/sources_1/new/lab_3_FIFO_divide.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_3_FIFO_divide
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/2018.2/lab_3_FIFO/lab_3_FIFO.srcs/sources_1/new/lab_3_to_bug.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab_3_to_bug
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado/2018.2/lab_3_FIFO/lab_3_FIFO.srcs/sim_1/new/FIFO_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_tb
+INFO: [VRFC 10-2458] undeclared symbol full, assumed default net type wire [E:/Vivado/2018.2/lab_3_FIFO/lab_3_FIFO.srcs/sim_1/new/FIFO_tb.v:54]
+INFO: [VRFC 10-2458] undeclared symbol empty, assumed default net type wire [E:/Vivado/2018.2/lab_3_FIFO/lab_3_FIFO.srcs/sim_1/new/FIFO_tb.v:54]
+INFO: [VRFC 10-2458] undeclared symbol error, assumed default net type wire [E:/Vivado/2018.2/lab_3_FIFO/lab_3_FIFO.srcs/sim_1/new/FIFO_tb.v:54]

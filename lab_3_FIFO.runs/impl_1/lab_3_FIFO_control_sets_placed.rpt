@@ -1,0 +1,83 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Thu Apr  4 20:29:30 2019
+| Host         : LAPTOP-OK1MKUJG running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file lab_3_FIFO_control_sets_placed.rpt
+| Design       : lab_3_FIFO
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    17 |
+| Unused register locations in slices containing registers |    30 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|      8 |           10 |
+|    16+ |            6 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              26 |            6 |
+| No           | No                    | Yes                    |              28 |            7 |
+| No           | Yes                   | No                     |             122 |           20 |
+| Yes          | No                    | No                     |              16 |            6 |
+| Yes          | No                    | Yes                    |              66 |            9 |
+| Yes          | Yes                   | No                     |               8 |            3 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------+-------------------------------+----------------------+------------------+----------------+
+|    Clock Signal    |         Enable Signal         |   Set/Reset Signal   | Slice Load Count | Bel Load Count |
++--------------------+-------------------------------+----------------------+------------------+----------------+
+|  clk_out_BUFG      | l3fr1/error_reg               | clr_IBUF             |                1 |              2 |
+|  clk_out_BUFG      | l3fr1/REG_Files[7][3]_i_1_n_0 | clr_IBUF             |                1 |              8 |
+|  clk_out_BUFG      | l3fr1/REG_Files[3][3]_i_1_n_0 | clr_IBUF             |                1 |              8 |
+|  clk_out_BUFG      | l3fr1/REG_Files[2][3]_i_1_n_0 | clr_IBUF             |                1 |              8 |
+|  clk_out_BUFG      | l3fr1/REG_Files[5][3]_i_1_n_0 | clr_IBUF             |                1 |              8 |
+|  clk_out_BUFG      | l3fr1/REG_Files[6][3]_i_1_n_0 | clr_IBUF             |                1 |              8 |
+|  clk_out_BUFG      | l3fr1/REG_Files[0][3]_i_1_n_0 | clr_IBUF             |                1 |              8 |
+|  clk_out_BUFG      | l3fr1/REG_Files[1][3]_i_1_n_0 | clr_IBUF             |                1 |              8 |
+|  clk_out_BUFG      | l3fr1/REG_Files[4][3]_i_1_n_0 | clr_IBUF             |                1 |              8 |
+|  clk_out_BUFG      | l3fr1/out[3]_i_2_n_0          | l3fr1/out[3]_i_1_n_0 |                3 |              8 |
+|  cw1/inst/clk_out1 |                               |                      |                4 |              8 |
+|  l3fd2/clk__0      | l3fdd1/seg[7]_i_1_n_0         |                      |                6 |             16 |
+|  l3fd2/clk__0      |                               |                      |                2 |             18 |
+|  l3fd2/clk__0      |                               | l3fdd1/Q[3]          |                6 |             22 |
+|  clk_out_BUFG      |                               | clr_IBUF             |                7 |             28 |
+|  cw1/inst/clk_out1 |                               | l3fd1/clk_out_0      |                7 |             50 |
+|  cw1/inst/clk_out1 |                               | l3fd2/clk_out        |                7 |             50 |
++--------------------+-------------------------------+----------------------+------------------+----------------+
+
+
